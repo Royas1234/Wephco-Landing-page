@@ -1,0 +1,614 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+*{
+    padding: auto;
+    margin: 0;
+    box-sizing: border-box;   
+}
+.body-container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body{
+    font-family: 'Circular Std', sans-serif;
+    line-height: 1.5;
+    background-color:white;
+    color:black;
+    font-size: 16px;
+    max-width: 1440px;
+    margin:auto;
+    padding-right: 15px;
+    padding-left: 15px
+    ;
+}
+ul{
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+.container{
+    margin: auto;
+    
+    padding:0 30px;
+}
+
+.navbar{
+    background-color:white;
+    color:black;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 1px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    margin-left: 50px;
+}
+
+
+.navbar .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+
+}
+.navbar .container .start{
+    color:white;
+}
+.login{
+        border: 1px solid black;
+        font-size: 18px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 6px;
+        margin-right: 10px;
+}
+.start{
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 10px 11px 10px 11px ;
+    margin-right: 20px;
+    border-radius: 7px;
+    margin-left:10px;
+    background-color: black;
+
+}
+.header{
+    background-color: white;
+    min-height: 400px;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.header .container .parg1{
+    font-weight: normal;
+    line-height: 1.2;
+    font-size: 15px;
+
+}
+
+.header .container .parg2{
+    border: 1px solid black;
+    background-color: black;
+    color:white;
+    padding: 16px 32px 16px 32px;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+.header .pargh3 {
+    text-align: center;
+    color: #666;
+    font-size: 24px;
+    line-height: 1.2em;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.header img{
+    max-width: 763px;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Container2{
+    background-color: white;
+    width: 1440px;
+    height: 194px;
+}
+.Container2 .Logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header2{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 1.3;
+    text-align: center;
+
+}
+.pargh4{
+    color: #e4f1f8;
+    font-size: 20px;
+    font-weight: 150;
+}
+.header3 {
+    color:#e4f1f8;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+.pargh5{
+    color:#e4f1f8;
+    font-size: 22px;
+    font-weight: 100;
+}
+.pargh6{
+    color: #e4f1f8;
+    font-size: 17px;
+}
+.pargh7{
+    color: #e4f1f8;
+    font-size: 27px;
+    font-weight: 700;
+}
+.pargh8{
+    color:#e4f1f8;
+    font-size:17px;
+}
+.grp1{
+    line-height: 1.1;
+    text-align: left;
+    padding-top:40px;
+    padding-left: 40px;
+
+}
+.grp2{
+    line-height: 1.2;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+
+
+.section-cont1{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.pargh9{
+    color:#e4f1f8;
+    font-size: 14px;
+    font-weight: 150;
+}
+.grp3{
+  line-height: 1.2; 
+  text-align: left;
+  padding-top: 70px;
+  padding-left: 40px;
+
+}
+.pargh10{
+    color:#e4f1f8;
+    font-size:25px;
+    font-weight: 250;
+}
+.pargh11{
+    color:#e4f1f8;
+    font-size: 14px;
+    font-weight: 100;
+}
+.grp4{
+    line-height: 1.2;
+    text-align: left;
+    padding-top: 70px;
+    padding-right: 55px;
+    
+}
+.pargh12{
+    color:#e4f1f8;
+    font-size:25px;
+    font-weight: 250;
+    
+}
+.pargh13{
+    color:#e4f1f8;
+    font-size:14px;
+    font-weight: 100;
+}
+.grp5{
+    text-align: left;
+    padding-left: 50px;
+    line-height: 1.2;
+    padding-right: 40px;
+    padding-top: 70px;
+
+}
+
+.section-cont2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-cont3 {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.Container3{
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center; 
+    height:350px;
+    background-color: black;
+    color: white;
+}
+.header4{
+    color:black;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 70px;
+    
+}
+.circle1{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: black;
+    
+}
+.circle2{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #e4f1f8;
+  
+
+}
+.circle3{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color:#e4f1f8;
+  
+}
+.pargh14{
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+
+}
+.section2-grp1{
+    width:400px;
+
+}
+.CirclesA{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
+
+.circle4{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: black;
+    
+}
+.circle5{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.circle6{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color:#e4f1f8;
+    
+}
+.CirclesB{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-left: 32px;
+}
+.pargh15{
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+}
+.section2-grp2{
+    width:400px;
+}
+.circle7{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: black;
+    
+}
+.circle8{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color:black;
+  
+
+}
+.circle9{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color:black;
+  
+}
+.CirclesC{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+.pargh16{
+    color: black;
+    font-size: 25px;
+    font-weight: 350;
+
+}
+.section2-grp3{
+    width:400px;
+}
+.section2-Cont{
+    width:1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 470px;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+.header5{
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+.section3-cont{
+    display: flex;
+    margin-right: 35px;
+    
+}
+.circle10{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #E50914;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+}
+.circle10 .M{
+    color: white;
+    text-align: center;
+    margin:0;
+    font-weight: 700;
+    font-size: 70px;
+}
+.pargh17{
+    text-align: left;
+    color: white;
+    font-size: 21px;
+    line-height: 1.3;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+    
+}
+.pargh18{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+    color: white;
+}
+.pargh19{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: white;
+}
+.section3-grp1{
+    border: 1px solid #141414;
+    background-color: #141414;
+    padding: 40px 50px 20px 40px;
+    width: 420px;
+    height: 556px;
+}
+
+.circle11{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color:#E50914;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+}
+.circle11 .A{
+    color: white;
+    text-align: center;
+    margin:0;
+    font-weight: 700;
+    font-size: 70px;
+}
+.pargh20{
+    text-align: left;
+    color: white;
+    font-size: 21px;
+    line-height: 1.3;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+    
+}
+.pargh21{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 55px;
+    color: white;
+}
+.pargh22{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: white;
+}
+.section3-grp2{
+    border: 1px solid #141414;
+    background-color: #141414;
+    padding: 40px 50px 20px 40px;
+    width: 420px;
+    height: 556px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.circle12{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color:#E50914;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+}
+.circle12 .C{
+    color: white;
+    text-align: center;
+    margin:0;
+    font-weight: 700;
+    font-size: 70px;
+}
+.pargh23{
+    text-align: left;
+    color: white;
+    font-size: 21px;
+    line-height: 1.3;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+.pargh24{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+    color: white;
+    line-height: 1.3;
+}
+.pargh25{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: white;
+}
+.section3-grp3{
+    border: 1px solid #141414;
+    background-color: #141414;
+    padding: 40px 50px 20px 40px;
+    width: 420px;
+    height: 556px;
+}
+.footer{
+
+    border: 1px solid #fbfbfb;
+    background-color: #fbfbfb;
+    width: 1440px;
+    height: 255px;
+    margin-top: 90px;
+    padding-top: 75px;
+    padding-right:55px;
+    padding-left: 55px;
+}
+    .footer-cont{
+    display: flex;
+    justify-content: space-between;
+   
+    }
+
+
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+}
+.copyright{
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact{
+    font-weight: 200;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.telephone{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
